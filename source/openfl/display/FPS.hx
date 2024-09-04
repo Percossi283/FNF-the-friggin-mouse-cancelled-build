@@ -98,7 +98,7 @@ class FPS extends TextField
 
 		if (currentCount != cacheCount /*&& visible*/)
 		{
-			text = "FPS: " + currentFPS;
+			text = "FPS Counter: " + currentFPS;
 			var memoryMegas:Float = 0;
 			
 			#if openfl
@@ -108,10 +108,10 @@ class FPS extends TextField
 
 			text += os;
 
-			textColor = 0xFFFFFFFF;
+			textColor = 0xFFFF00;
 			if (memoryMegas > 3000 || currentFPS <= ClientPrefs.framerate / 2)
 			{
-				textColor = 0xFFFF0000;
+				textColor = 0xFFFF00;
 			}
 
 			#if (gl_stats && !disable_cffi && (!html5 || !canvas))

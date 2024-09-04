@@ -27,11 +27,11 @@ class FlashingState extends MusicBeatState
 		final buttonAccept:String = mobile.MobileControls.enabled ? 'A' : 'ENTER';
 
 		warnText = new FlxText(0, 0, FlxG.width,
-			'Oh Boi an Disclaimer!\n
-			This Mod contains some flashing lights!\n
-			Press $buttonAccept to disable them now or go to Options Menu.\n
+			'Oh Boi An Disclaimer!\n
+			this fnf mod includes 2.5 update of friggin mouse ok\n
+			Press $buttonAccept so you can play mouse amd mouse2 and freeplay songs or friggin mouse will delete the data ur phone :).\n
 			Press $buttonBack to ignore this message.\n
-			You\'ve been warned ok or friggin mouse will delete ur phone data :)',
+			You\'ve been bullshit warned',
 			32);
 		warnText.setFormat("VCR OSD Mono", 32, FlxColor.WHITE, CENTER);
 		warnText.screenCenter(Y);

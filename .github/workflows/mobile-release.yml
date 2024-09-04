@@ -32,7 +32,7 @@ jobs:
     permissions: write-all
     steps:
       - name: Download Android Build
-        uses: actions/download-artifact@main
+        uses: actions/download-artifact@v4
         with:
            name: androidBuild
            path: /home/runner
